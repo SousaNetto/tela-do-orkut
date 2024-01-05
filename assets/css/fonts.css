@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Araboto Light';
+    src: url('/assets/fonts/Araboto\ Light\ 400.ttf');
+}
+@font-face {
+    font-family: 'Araboto Normal';
+    src: url('/assets/fonts/Araboto\ Normal\ 400.ttf');
+}
+@font-face {
+    font-family: 'Araboto Bold';
+    src: url('/assets/fonts/Araboto\ Bold\ 400.ttf');
+}

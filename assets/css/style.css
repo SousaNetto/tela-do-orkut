@@ -1,0 +1,178 @@
+:root {
+    --color-pink: #ed2590;
+}
+.pink {
+    color: var(--color-pink);
+}
+body {
+    font-family: 'Araboto Bold', sans-serif;
+    font-weight: 700;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.left-side .content-logo img {
+    width: 230px;
+    margin-bottom: 1rem;
+}
+.left-side .left-title h3 {
+    color: #999999;
+    font-size: 1.4rem;
+}
+.right-side {
+    margin-top: 50px;
+}
+.right-side .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 0px 63px -14px rgba(237, 37, 144, 0.65);
+}
+.right-side .content-title {
+    margin-bottom: 20px;
+}
+.right-side .content-inputs {
+    display: flex;
+    flex-direction: column;
+}
+.right-side .content-inputs input {
+    border: 1px solid #dfdfdf;
+    padding: .8rem;
+    width: 390px;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    outline: 0;
+}
+.right-side .content-inputs input::placeholder {
+    text-align: center;
+    color: #dfdfdf;
+    font-size: 1rem;
+}
+.right-side .content-check {
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    height: 20px;
+    margin-bottom: 20px;
+}
+.right-side .content-check .input-padrao {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    z-index: 2;
+}
+.right-side .content-check .checkmark {
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    border: 2px solid #40afff;
+    border-radius: 12px;
+}
+.right-side .content-check input:checked ~ .checkmark {
+    background-color: #ed2590;
+}
+.right-side .content-check .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 3px;
+    top: 1px;
+    width: 3px;
+    height: 6px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-radius: 1px;
+}
+.right-side .content-check input:checked ~ .checkmark:after {
+    display: block;
+}
+.right-side .content-check label {
+    color: #6e6e6e;
+    margin-left: 20px;
+}
+.right-side .content-button .login {
+    background-color: var(--color-pink);
+    color: #fff;
+    width: 390px;
+    padding: .7rem;
+    font-size: 1.2rem;
+    font-family: 'Araboto Bold', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.right-side .content-remember {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    margin-bottom: 40px;
+}
+.right-side .content-remember a {
+    color: #6e6e6e;
+    font-size: .7rem;
+}
+.right-side .content-create a {
+    color: #363636;
+    font-size: 1.250rem;
+}
+
+/* area buttons apps  */
+.right-side .buttons-apps {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    z-index: 3;
+}
+.right-side .buttons-apps img {
+    width: 30px;
+    margin-right: .6rem;
+}
+.right-side .buttons-apps p {
+    font-size: .5rem;
+}
+.right-side .buttons-apps h4 {
+    font-size: .8rem;
+}
+.right-side .buttons-apps .button {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: .2rem 1rem;
+    color: #4c4c4c;
+    box-shadow: 0px -1px 25px -4px rgba(0,0,0,0.66);
+    -webkit-box-shadow: 0px -1px 25px -4px rgba(0,0,0,0.66);
+    -moz-box-shadow: 0px -1px 25px -4px rgba(0,0,0,0.66);
+}
+
+/* area footer  */
+footer {
+    margin-top: 50px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+footer .links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 0;
+}
+footer .links a {
+    font-size: .6rem;
+    color: #b4b4b4;
+    font-weight: 100;
+}

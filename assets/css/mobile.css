@@ -1,0 +1,58 @@
+@media screen and (max-width: 450px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .left-side {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+    .left-side .content-logo img {
+        width: 180px;
+    }
+    .left-side .left-title h3 {
+        text-align: center;
+    }
+    .right-side {
+        margin: 0 auto;
+    }
+    .right-side .content {
+        width: 90vw;
+        box-shadow: 0px 0px 20px 2px rgba(237, 37, 144, 0.267);
+    }
+    .right-side .content .content-title {
+        text-align: center;
+    }
+    .right-side .content .content-inputs input{
+        width: 280px;
+    }
+    .right-side .content-check {
+        width: 100%;
+    }
+    .right-side .content .content-check label {
+        font-size: .825rem;
+    }
+    .right-side .content .content-create a{
+        font-size: 1rem;
+    }
+    .right-side .content-check label {
+        font-size: .8rem;
+    }
+    .right-side .content-button .login {
+        width: 180px;
+        font-size: .8rem;
+        padding: .5rem;
+    }
+    .content-check {
+        margin-bottom: 30px;
+    }
+    footer {
+        position: relative;
+    }
+    footer .links {
+        gap: 1rem;
+    }
+}
