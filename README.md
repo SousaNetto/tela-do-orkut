@@ -1,5 +1,5 @@
+![capaOrkut](https://github.com/SousaNetto/tela-do-orkut/assets/110845742/4f183a54-c0b8-4aaa-874e-38d82cb5dd77)
 
-![capa](https://github.com/SousaNetto/tela-do-orkut/assets/110845742/4014bb00-14e1-4275-a931-90435dcda7a5)
 
 # Interface do Orkut
 projeto criado para relembrar a rede social Orkut.
